@@ -1,7 +1,10 @@
-# jetty-continuation-sample
-简单的实现请求异步处理-例子没有整理比较乱
+package sample.jetty;
 
 /**
+ * Created by zd.yao on 2017/3/13.
+ */
+public class Readme {
+    /**
      *
      * d-1
      *http://localhost:8080/hello
@@ -16,3 +19,4 @@
      * 1.同一浏览器且同一窗口--可以连续发起请求
      * 2.同一浏览器且同时两个窗口必须等待第一个同窗口的请求都处理完成才可以处理第二个窗口的请求
      */
+}
